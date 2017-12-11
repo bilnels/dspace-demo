@@ -27,5 +27,6 @@ mod "puppetlabs-tomcat", "1.5.0"
 mod "puppetlabs-apache", "1.10.0"
 
 # Custom Module to install DSpace
-# mod "DSpace/dspace",
+mod "serverless",
 #   :git => "https://github.com/DSpace/puppet-dspace.git"
+    :git => "https://github.com/bilnels/puppet-dspace.git"
